@@ -22,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    /** 添加子控制器 */
     [self addChildVC:[[ConnectionTVC alloc]init] title:@"联系人" imageName:nil HighlightedImage:nil];
     [self addChildVC:[[messageTVC alloc]init] title:@"消息" imageName:nil HighlightedImage:nil];
     [self addChildVC:[[DynamicTVC alloc]init] title:@"动态" imageName:nil HighlightedImage:nil];
